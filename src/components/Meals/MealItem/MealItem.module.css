@@ -1,0 +1,13 @@
+li {
+  display: flex;
+  width: calc((100% - 60px) / 3);
+}
+
+.description {
+  color: #999;
+  font-style: italic;
+}
+
+.price {
+  font-size: 1rem;
+}

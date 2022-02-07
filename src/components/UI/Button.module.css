@@ -1,0 +1,10 @@
+.button {
+  padding: 10px;
+  min-width: 100px;
+  color: #fff;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background: rgb(210, 210, 210);
+}

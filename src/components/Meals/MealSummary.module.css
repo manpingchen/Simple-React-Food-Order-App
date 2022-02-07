@@ -1,0 +1,14 @@
+.mealSummary {
+  position: relative;
+  margin-top: -16rem;
+  border-radius: 50px;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 10rem;
+}
+
+.mealSummary h2 {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 7px 9px 10px black;
+}
