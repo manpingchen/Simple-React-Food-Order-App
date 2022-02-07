@@ -1,14 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Pacifico&display=swap");
+
 .mealSummary {
-  position: relative;
-  margin-top: -16rem;
+  position: absolute;
+  top: 10%;
   border-radius: 50px;
   width: 50%;
-  margin-left: 25%;
+  left: 25%;
   margin-bottom: 10rem;
 }
 
 .mealSummary h2 {
   color: #fff;
-  font-size: 3rem;
-  text-shadow: 7px 9px 10px black;
+  font-size: 4rem;
+  font-family: "Pacifico", cursive;
+  line-height: 1.3em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

@@ -32,7 +32,3 @@ button {
   border: none;
   border-radius: 17px;
 }
-
-button:hover {
-  filter: brightness(0.8);
-}

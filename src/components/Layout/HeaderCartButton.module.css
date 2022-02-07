@@ -1,12 +1,15 @@
 .button {
   border: none;
-  background: transparent;
+  background: linear-gradient(100deg, tomato, rgb(255, 61, 39));
   color: #fff;
   font-weight: bold;
   display: flex;
   align-items: center;
   position: relative;
   cursor: pointer;
+  padding: 10px 30px 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
 }
 
 .icon {
@@ -14,18 +17,12 @@
   fill: #fff;
 }
 .amount {
-  position: absolute;
-  top: -15px;
-  right: -6px;
-  border-radius: 50%;
-  padding: 7px;
-  min-width: 30px;
   color: #fff;
-  background: #700404;
+  font-size: 1.2rem;
 }
 
 .bump {
-  animation: bump 300ms ease-out;
+  animation: bump 200ms ease-out;
 }
 
 @keyframes bump {
