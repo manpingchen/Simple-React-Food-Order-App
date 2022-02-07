@@ -13,7 +13,15 @@ const AvailableMeals = () => {
 
       const data = await response.json();
 
-      const mealsArr = Object.values(data);
+      let mealsArr = [];
+      for (const key in data) {
+        mealsArr.push({
+          id: key,
+          name: data[key].name,
+          description: data[key].description,
+          price: data[key].price,
+        });
+      }
       setMeals(mealsArr);
       console.log({ data, mealsArr });
     } catch (error) {
@@ -26,11 +34,11 @@ const AvailableMeals = () => {
   }, []);
 
   let mealList = meals.map((meal) => <MealItem key={meal.id} meal={meal} />);
-  
-  if(meals.length < 0) {
-    mealList = <p>No Meals</p>
+
+  if (meals.length < 0) {
+    mealList = <p>No Meals</p>;
   }
-  
+
   return <section className={classes.availableMeals}>{mealList}</section>;
 };
 
