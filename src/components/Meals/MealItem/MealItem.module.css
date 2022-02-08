@@ -12,3 +12,17 @@ li {
 .price {
   font-size: 1rem;
 }
+
+@media (max-width: 1024px) {
+  li {
+    display: flex;
+    width: calc((100% - 60px) / 2);
+  }
+}
+
+@media (max-width: 550px) {
+  li {
+    display: flex;
+    width: 100%;
+  }
+}

@@ -7,6 +7,7 @@
   width: 50%;
   left: 25%;
   margin-bottom: 10rem;
+  z-index: 999;
 }
 
 .mealSummary h2 {
@@ -15,4 +16,16 @@
   font-family: "Pacifico", cursive;
   line-height: 1.3em;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .mealSummary h2 {
+    font-size: 3.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .mealSummary h2 {
+    font-size: 3em;
+  }
 }

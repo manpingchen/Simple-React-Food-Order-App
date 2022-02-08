@@ -5,3 +5,22 @@
   gap: 30px;
   margin-bottom: 5rem;
 }
+
+.loading-text {
+  text-align: center;
+}
+
+.error-section {
+  text-align: center;
+  padding: 5%;
+}
+
+.error-section h4 {
+  color: tomato;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.error-section p {
+  color: #999;
+}
