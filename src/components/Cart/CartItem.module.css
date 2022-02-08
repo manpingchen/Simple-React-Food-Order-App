@@ -1,22 +1,31 @@
 .cart-item {
   width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
 
 .cart-item-container {
+  width: 100%;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.cart-item-content {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
-h2 {
-  font-size: 1rem;
-  margin-right: 16px;
+.summary {
+  width: 200px;
 }
 
-.summary {
-  width: 140px;
+.summary span{
+  margin-right: 8px;
 }
 
 .removeBtn {

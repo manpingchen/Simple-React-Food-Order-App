@@ -1,0 +1,18 @@
+.checkout-cart-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-cart-item p {
+  margin: 2px 0;
+}
+
+.checkout-cart-item-detail {
+  display: flex;
+  align-items: center;
+}
+
+.checkout-cart-item-price {
+  font-style: italic;
+  padding-right: 5px;
+}

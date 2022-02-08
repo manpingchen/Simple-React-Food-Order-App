@@ -32,3 +32,15 @@ button {
   border: none;
   border-radius: 17px;
 }
+
+button.button--alt {
+  margin-right: 10px;
+}
+
+div
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-top: 10px;
+}

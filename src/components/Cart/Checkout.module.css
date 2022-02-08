@@ -1,0 +1,17 @@
+.control {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.control label {
+  padding-right: 10px;
+  width: 140px;
+}
+
+.control input {
+  padding: 10px;
+  border-radius: 17px;
+  border: 1px solid #ddd;
+  width: 100%;
+}

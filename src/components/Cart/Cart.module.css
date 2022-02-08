@@ -1,15 +1,6 @@
 .title {
   font-size: 1.3rem;
-}
-
-.actions {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-
-.button--alt {
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .detail {
@@ -17,15 +8,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .price-amount {
   font-weight: bold;
   font-size: 1.4rem;
+}
+
+.price-hightlight {
+  margin: 10px 0;
+  padding: 5px 0 10px;
+  border-bottom: 2px solid #000;
 }
