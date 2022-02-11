@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Pacifico&display=swap");
+
 .title {
   font-size: 1.3rem;
   margin-bottom: 10px;
@@ -26,4 +28,25 @@
   margin: 10px 0;
   padding: 5px 0 10px;
   border-bottom: 2px solid #000;
+}
+
+.order-text {
+  text-align: center;
+}
+
+.order-text h4 {
+  color: mediumseagreen;
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.order-text p {
+  margin: 0;
+  line-height: 1.4rem;
+}
+
+.delivered-time {
+  font-weight: bold;
+  padding-top: 10px;
 }

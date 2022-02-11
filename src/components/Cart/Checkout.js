@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 const isNotEmpty = (value) => value.trim() !== "";
 
 const Checkout = (props) => {
+  const { confirmHandler, onCancel } = props;
   const [isFormValid, setIsFormValid] = useState(false);
 
   const {
@@ -42,6 +43,8 @@ const Checkout = (props) => {
       postcodeInputResetHandler();
       setIsFormValid(false);
     }
+
+    confirmHandler({ name: nameValue, street: streetValue, postcode: postcodeValue });
   };
 
   useEffect(() => {
@@ -117,7 +120,7 @@ const Checkout = (props) => {
           text="Confirm"
           color={!isFormValid ? "secondary" : "primary"}
         />
-        <Button text="Cancel" color="secondary" onClick={props.onCancel} />
+        <Button text="Cancel" color="secondary" onClick={onCancel} />
       </div>
     </form>
   );
